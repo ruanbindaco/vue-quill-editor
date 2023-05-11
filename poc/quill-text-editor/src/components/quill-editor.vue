@@ -15,7 +15,7 @@ export default {
   data() {
     return {
       content:
-        "<p>dawopdjawiojdwajdioawj dioawjdio awjido jawiodjawio jdioaw jdijaw iodjawio djiawdj ioawdawopdjawiojdwajdioawj dioawjdio awjido jawiodjawio jdioaw jdijaw iodjawio djiawdj ioawvvvvvdawopdjawiojdwajdioawj dioawjdio awjido jawiodjawio jdioaw jdijaw iodjawio djiawdj ioawdawopdjawiojdwajdioawj dioawjdio awjido jawiodjawio jdioaw jdijaw iodjawio djiawdj ioawdawopdjawiojdwajdioawj dioawjdio awjido jawiodjawio jdioaw jdijaw iodjawio djiawdj ioaw</p>",
+        "<p>dawopdjawiojdwajdioawj dioawjdio awjido jawiodjawio jdioaw jawiodjawio jdioaw jdijaw iodjawio djiawdj ioawdawopdjawiojdwajdioawj dioawjdio jawiodjawio jdioaw jdijaw iodjawio djiawdj ioawdawopdjawiojdwajdioawj dioawjdio jawiodjawio jdioaw jdijaw iodjawio djiawdj ioawdawopdjawiojdwajdioawj dioawjdio  jdijaw iodjawio djiawdj ioawdawopdjawiojdwajdioawj dioawjdio </p>",
       teste: false,
       editorOptions: {
         placeholder: "Digite um texto aqui.",
@@ -62,7 +62,7 @@ export default {
   }
   .ql-editor {
     * {
-      overflow-y: scroll;
+      overflow-y: auto;
       height: 95px;
     }
   }
@@ -76,7 +76,7 @@ export default {
   }
   .ql-editor {
     * {
-      overflow-y: hidden;
+      overflow-y: auto;
       height: 100%;
     }
   }
